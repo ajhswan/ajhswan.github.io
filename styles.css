@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+h1, body {
+	margin: 0;
+}
+header {
+	background: gray;
+	height: 600px;
+	width: 100%;
+}
+
+nav {
+	background-color: rgb(255,255,255);
+	width: 70%;
+	height: 68px;
+	margin: 0 auto;
+}
+nav ul {
+	float: left;
+	list-style: none;
+}
+nav li {
+	float: left;
+}
