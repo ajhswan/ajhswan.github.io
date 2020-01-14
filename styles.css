@@ -1,3 +1,6 @@
+
+/*color palette: #1B262C, #0F4C75, #3282B8, #BBE1FA*/
+
 * {
 	box-sizing: border-box;
 }
@@ -6,11 +9,21 @@ h1, body {
 	/*font-family: 'Josefin Sans', sans-serif;
 	font-family: 'Poiret One', cursive;*/
 	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.logoMobile {
+	display: none;
+	background: black;
+	color: white;
 }
 header {
 	background: gray;
 	height: 600px;
-	width: 100%;
+	/*width: 65%;*/
+	background-color: #0F4C75;
+	margin-right: 0;
+	margin-left: 0;
+	background-color: ;
 }
 
 nav {
@@ -18,7 +31,9 @@ nav {
 	width: 65%;
 	height: 68px;
 	margin: 0 auto;
-/*	position: fixed;*/
+	position: fixed;
+	top: 0;
+	left: 17.5%;
 	
 }
 .logo {
@@ -27,16 +42,16 @@ nav {
 	height: 100%;
 }
 .logoText1 {
-	color: rgb(255,255,255);
-	background-color: rgb(0,153,255);
+	color: #FFFFFF;
+	background-color: #1B262C;
 	height: 50%;
 	padding-top: 5px;
 	padding-left: 20px;
 	margin: 0;
 }
 .logoText2 {
-	color: rgb(255,255,255);
-	background-color: rgb(0,153,255);
+	color: #FFFFFF;
+	background-color: #1B262C;
 	height: 50%;
 	padding-bottom: 5px;
 	padding-left: 20px;
@@ -59,6 +74,47 @@ nav li {
 	float: left;
 	margin-right: 40px;
 }
+
 li:hover {
-	border-top: 3px solid rgb(0,153,255);	
+	border-top: 3px solid rgb(0,153,255);
 }
+.content {
+	margin-right: 17.5%;
+	margin-left: 17.5%;
+	padding-top: 10%;
+	color: #FFFFFF;
+}
+.content h1 {
+	font-size: 4rem;
+}
+.content h2 {
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 1450px) {
+	.logoText1,.logoText2 {
+		font-size: 1.25rem;
+		padding-left: 5px;
+	}
+	
+} 
+@media screen and (max-width: 1000px) {
+	.logoText1,.logoText2 {
+		font-size: 1rem;	
+	}
+	.slogan {
+		display: none;
+}   
+
+@media screen and (max-width: 800px) {
+	.logoText1, .logoText2 {
+		display: none;
+	}
+	.logoMobile {
+		display: block;
+	}
+	nav ul {
+		padding-left: 2px;
+	}
+}
+  
