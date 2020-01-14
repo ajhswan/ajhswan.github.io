@@ -3,7 +3,9 @@
 }
 h1, body {
 	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poiret One', cursive;*/
+	font-family: 'Source Sans Pro', sans-serif;
 }
 header {
 	background: gray;
@@ -16,15 +18,30 @@ nav {
 	width: 65%;
 	height: 68px;
 	margin: 0 auto;
+/*	position: fixed;*/
+	
 }
 .logo {
 	float: left;
 	width: 10%;
-	color: rgb(255,255,255);
-	background-color: rgb(0,153,255);
 	height: 100%;
 }
-
+.logoText1 {
+	color: rgb(255,255,255);
+	background-color: rgb(0,153,255);
+	height: 50%;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin: 0;
+}
+.logoText2 {
+	color: rgb(255,255,255);
+	background-color: rgb(0,153,255);
+	height: 50%;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin: 0;
+}
 .slogan {
 	float: left;
 	margin-top: 10px;
@@ -36,8 +53,12 @@ nav ul {
 	float: right;
 	list-style: none;
 	font-size: 20px;
+	
 }
 nav li {
 	float: left;
 	margin-right: 40px;
+}
+li:hover {
+	border-top: 3px solid rgb(0,153,255);	
 }
