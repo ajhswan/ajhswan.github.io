@@ -110,6 +110,7 @@ section {
 	height: 800px;
 	background-color: rgb(255,255,255);
 }
+
 .projects {
 	float: left;
 	height: 350px;
@@ -125,6 +126,7 @@ section {
 	width: 120%;
 	margin-left: 5%;
 }
+
 @media screen and (max-width: 1450px) {
 	.logoText1,.logoText2 {
 		font-size: 1.25rem;
