@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+
+h1, body {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logoMobile {
+	display: none;
+	background: black;
+	color: white;
+}
+
+header {
+	background: gray;
+	height: 1000px;
+	/*width: 65%;*/
+	background-color: #0F4C75;
+	margin-right: 0;
+	margin-left: 0;
+	background-image: url('get-it-done.jpg');
+	background-size: cover;
+}
+
+nav {
+	background-color: rgb(255,255,255);
+	width: 65%;
+	height: 68px;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	left: 17.5%;
+	
+}
+
+.logo {
+	width: 30px;
+	height: 100%;
+	float: left;
+}
+
+.logo h1 {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 60px;
+	float: left;
+	background-color: white;
+	margin-left: 5px;
+	color: rgb(70,130,180);
+}
+
+nav ul {
+	float: right;
+	list-style: none;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
+nav li {
+	float: left;
+	margin-right: 40px;
+
+}
+
+nav img {
+	display: none;
+	float: right;
+}
+
+li:hover {
+	border-top: 3px solid rgb(70,130,180);
+}
+
+.content {
+	margin-right: 17.5%;
+	margin-left: 17.5%;
+	padding-top: 10%;
+	color: rgb(0,153,255);
+}
+
+.content h1 {
+	font-size: 5rem;
+	color: rgb(70,130,180);
+}
+
+.content h2 {
+	font-size: 4rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content h3 {
+	font-size: 2rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+
+@media screen and (max-width: 1450px) {
+	.logoText1,.logoText2 {
+		font-size: 1.25rem;
+		padding-left: 5px;
+	}
+} 
+
+@media screen and (max-width: 1200px) {
+	header {
+		height: 500px;
+	}		
+	ul li {
+		display: none;
+	}
+	nav img {
+		display: block;
+	}
+}   
+
+  
