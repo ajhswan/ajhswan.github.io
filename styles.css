@@ -7,6 +7,10 @@ h1, body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+h2 {
+	color: rgb(0,153,255);
+	font-size: 4rem;
+}
 .logoMobile {
 	display: none;
 	background: black;
@@ -100,10 +104,33 @@ li:hover {
 	margin-left: 30px;
 }
 
+section {
+	margin-right: 17.5%;
+	margin-left: 17.5%;
+	height: 800px;
+	background-color: rgb(255,255,255);
+}
+.projects {
+	float: left;
+	height: 350px;
+	width: 25.9%;
+	margin-right: 11%;
+}
+
+#box3 {
+	margin-right: 0;
+}
+
+
 @media screen and (max-width: 1450px) {
 	.logoText1,.logoText2 {
 		font-size: 1.25rem;
 		padding-left: 5px;
+	}
+	.projects {
+		width: 45%;
+		margin-right: 2%;
+		margin-bottom: 1%;
 	}
 } 
 
