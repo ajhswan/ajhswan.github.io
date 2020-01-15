@@ -121,7 +121,10 @@ section {
 	margin-right: 0;
 }
 
-
+.projects p {
+	width: 120%;
+	margin-left: 5%;
+}
 @media screen and (max-width: 1450px) {
 	.logoText1,.logoText2 {
 		font-size: 1.25rem;
@@ -130,7 +133,11 @@ section {
 	.projects {
 		width: 45%;
 		margin-right: 2%;
-		margin-bottom: 1%;
+		margin-bottom: 10%;
+	}
+	.projects p {
+		width: 80%;
+		margin-left: 1%;
 	}
 } 
 
@@ -144,6 +151,13 @@ section {
 	nav img {
 		display: block;
 	}
+	.projects p {
+		display: none;
+	}
 }   
 
-  
+@media screen and (max-width: 1040px ) {
+	.projects {
+		float: none;
+	}
+}
