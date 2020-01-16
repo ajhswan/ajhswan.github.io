@@ -160,11 +160,22 @@ article p {
 }
 
 .scrumImage img {
+	float: left;
+}
+.codingImage img {
 	float: right;
 }
 
-@media screen and (max-width: 1490px) {
+@media screen and (min-width: 1490px) {
+	.projects {
+		margin-left: 5%;
+	}
 	
+	.aboutMe {
+		margin-left: 25%;
+	}
+}
+@media screen and (max-width: 1490px) {
 	.logoText1,.logoText2 {
 		font-size: 1.25rem;
 		padding-left: 5px;
