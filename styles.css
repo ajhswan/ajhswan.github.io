@@ -162,8 +162,14 @@ article p {
 .scrumImage img {
 	float: left;
 }
+
 .codingImage img {
 	float: right;
+}
+
+#aboutNav {
+	position: absolute;
+	top: 1600px;
 }
 
 @media screen and (min-width: 1490px) {
@@ -228,8 +234,20 @@ article p {
 	}
 	article div {
 		width: 80%;
-		height: 35%;
+		height: 50%;
 		float: none;
 		margin-left: 10%;
+	}
+	article p {
+		font-size: 1.2rem;
+	}
+	.content h2, h2 {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#box1 ,#box2, #box3 {
+		margin-left: 12%;
 	}
 }
