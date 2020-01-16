@@ -54,6 +54,11 @@ nav {
 	color: rgb(50,79,133);
 }
 
+.anchorNav, .anchorNav:active, .anchorNav:visited, .anchorNav:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
 nav ul {
 	float: right;
 	list-style: none;
