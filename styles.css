@@ -162,8 +162,14 @@ article p {
 .scrumImage img {
 	float: left;
 }
+
 .codingImage img {
 	float: right;
+}
+
+#aboutNav {
+	position: absolute;
+	top: 1600px;
 }
 
 @media screen and (min-width: 1490px) {
