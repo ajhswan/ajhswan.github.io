@@ -169,7 +169,7 @@ svg {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     background-color: rgba(129, 129, 129, 0.9);
@@ -186,9 +186,9 @@ svg {
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 12px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 48px;
     color: #152238;
     display: block;
     transition: 0.3s;
