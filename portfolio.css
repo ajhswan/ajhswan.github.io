@@ -1,18 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    overflow: auto;
+}
+
 .container {
     /*border: 2px dotted red;*/
-    width: 70%;
-    margin: 60px auto;
-    height: 80%;
+    width: 750px;
+    margin: 50px auto;
+    height: 800px;
+
 }
 
 .box {
-    border: 2px dotted white;
-    width: 40%;
-    height: 40%;
+    /*border: 2px dotted white;*/
+    width: 350px;
+    height: 200px;
     float: left;
-    margin-left: 6%;
+    margin-left: 20px;
     margin-top: 50px;
     box-shadow: 0 0 50px rgba(0,0,0,.75) inset;
+}
+
+.bar1 {
+    background-color: #a4a29e;
+    width: 350px;
+    height: 20px;
 }
 
 #box1 {
