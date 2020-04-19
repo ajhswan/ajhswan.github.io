@@ -5,11 +5,23 @@
     overflow: auto;
 }
 
+.header {
+    margin: 0 auto;
+    color: #ffffff;
+    /*text-align: center;*/
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container {
     /*border: 2px dotted red;*/
     width: 750px;
-    margin: 50px auto;
-    height: 800px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
 
 }
 
@@ -44,10 +56,10 @@ svg {
     float: left;
     width: 350px;
     height: 20px;
-    text-align: center;
+    /*text-align: center;*/
     text-transform: uppercase;
     color: #464E51;
-    font-family: MontSerrat,Tahoma,Arial,sans-serif;;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
 }
 
 #box1 {
@@ -93,7 +105,7 @@ svg {
     position: relative;
     top: 50px;
     font-size: 1.3rem;
-    color: #f5f5f5;
+    color: #63AB62;
     margin: 0 20px auto;
 }
 
@@ -112,8 +124,22 @@ svg {
     margin-left: 7px;
 }
 
-. bar1 span {
+.pairsGame {
     position: relative;
-    left: 10px;
+    left: 70px;
+}
 
+.aptitudeTest {
+    position: relative;
+    left: 70px;
+}
+
+.recipeApi {
+    position: relative;
+    left: 70px;
+}
+
+.receiptCol {
+    position: relative;
+    left: 40px;
 }

@@ -1,0 +1,60 @@
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.wrapper ul li {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: #e59500;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+ul li .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+ul li.linkedin{
+    background: #00aced;
+}
+
+ul li.instagram{
+    background: #C13584;
+    cursor: pointer;
+}
+
+ul li.github{
+    background: #211F1F;
+}
+
+.contact {
+    position: relative;
+    top: 40%;
+    width: 50%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.contact span {
+    color: #63AB62;
+    font-weight: bold;
+}

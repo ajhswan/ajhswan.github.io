@@ -9,18 +9,6 @@ body {
     height: 100vh;
 }
 
-#wrapper
-{
-    width:10px;
-    height:10px;
-    margin:0 auto;
-    background:#f7f7f7;
-    position:absolute;
-    left:50%;
-    top:50%;
-    margin-left:-5px;
-    margin-top:-5px;
-}
 
 .menuContainer {
     display: none;
@@ -127,10 +115,12 @@ svg {
 }
 
 #typewritter {
-    position: relative;
-    top: 40%;
-    width: 50%;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36em;
+    /*margin: 0 auto;*/
+    transform: translate(-50%, -50%);
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 800;
