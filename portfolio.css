@@ -5,6 +5,17 @@
     overflow: auto;
 }
 
+.page-control {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    top: 50%;
+    margin-top: -40px;
+    z-index: 1;
+    /*border: red dotted 0.5px;*/
+}
+
 .header {
     margin: 0 auto;
     color: #ffffff;
@@ -35,7 +46,7 @@ svg {
     float: left;
     width: 350px;
     height: 250px;
-    z-index: 3;
+    z-index: 9;
 }
 
 .box {
@@ -85,6 +96,16 @@ svg {
     background-size: cover;
 }
 
+#box5 {
+    background-image: url(login.png);
+    background-size: cover;
+}
+
+#box6 {
+    background-image: url(portfolio.png);
+    background-size: cover;
+}
+
 
 
 
@@ -94,6 +115,7 @@ svg {
     background-color: rgba(0,0,0,.75);
     margin: 0 auto;
     opacity: 0;
+    z-index: 3;
 }
 
 .tagContainer:hover {
@@ -126,7 +148,7 @@ svg {
 
 .pairsGame {
     position: relative;
-    left: 70px;
+    left: 78px;
 }
 
 .aptitudeTest {
@@ -142,4 +164,14 @@ svg {
 .receiptCol {
     position: relative;
     left: 40px;
+}
+
+.login {
+    position: relative;
+    left: 90px;
+}
+
+.portfolio {
+    position: relative;
+    left: 80px;
 }
