@@ -46,7 +46,7 @@ svg {
     float: left;
     width: 350px;
     height: 250px;
-    z-index: 9;
+    z-index: 27;
 }
 
 .box {
@@ -115,7 +115,7 @@ svg {
     background-color: rgba(0,0,0,.75);
     margin: 0 auto;
     opacity: 0;
-    z-index: 3;
+    z-index: 99;
 }
 
 .tagContainer:hover {
@@ -148,30 +148,30 @@ svg {
 
 .pairsGame {
     position: relative;
-    left: 78px;
+    left: 60px;
 }
 
 .aptitudeTest {
     position: relative;
-    left: 70px;
+    left: 50px;
 }
 
 .recipeApi {
     position: relative;
-    left: 70px;
+    left: 45px;
 }
 
 .receiptCol {
     position: relative;
-    left: 40px;
+    left: 10px;
 }
  
 .login {
     position: relative;
-    left: 50px;
+    left: 30px;
 }
 
 .portfolio {
     position: relative;
-    left: 80px;
+    left: 60px;
 }
